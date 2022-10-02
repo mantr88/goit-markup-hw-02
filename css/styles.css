@@ -1,0 +1,67 @@
+:root {
+    --main-color:#2196F3;
+    --main-bg-color:#F5F5F5;
+    --secondary-bg-color:#2F303A;
+    --header-bg-color: #ffffff;
+    --logo-second-color:#000000;
+    --main-font-color:#212121;
+    --second-font-color:#757575;
+    --white-font-color:#ffffff;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-font-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.links {
+    text-decoration: none;
+}
+
+
+            /* header */
+
+.page-top {
+    background-color: var(--header-bg-color);
+   
+}
+
+.logo {
+    color: var(--logo-second-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 1.19;
+}
+
+.accent-logo {
+    color: var(--main-color);
+}
+
+.site-nav,
+.contacts {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+
+.link-nav:hover,
+.link-nav:focus,
+.link-contacts:hover,
+.link-contacts:focus {
+    color: var(--main-color);
+}
+
+.link-contacts {
+    text-decoration: none;
+    color: var(--second-font-color);
+}
+
