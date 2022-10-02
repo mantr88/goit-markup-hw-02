@@ -24,6 +24,10 @@ body {
     color: var(--main-font-color);
 }
 
+.buttons:hover,
+.buttons:focus {
+    cursor: pointer;
+}
         
             /* header */        
 
@@ -179,4 +183,9 @@ letter-spacing: 0.03em;
 .down {
     color: var(--footer-font-color);
     
+}
+
+.down:hover,
+.down:focus {
+    color: var(--main-color);
 }
