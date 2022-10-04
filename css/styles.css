@@ -3,6 +3,7 @@
     --main-bg-color:#F5F5F5;
     --secondary-bg-color:#2F303A;
     --header-bg-color: #ffffff;
+    --hero-button-bg-color:#188CE8;
     --logo-second-color:#000000;
     --main-font-color:#212121;
     --second-font-color:#757575;
@@ -16,7 +17,7 @@ body {
     letter-spacing: 0.03em;
 }
 
-.list {
+ul {
     list-style: none;
 }
 
@@ -38,7 +39,7 @@ body {
 }
 
 .logo {
-    color: var(--logo-second-color);
+    color: var(--main-color);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -46,8 +47,8 @@ body {
     
 }
 
-.accent-logo {
-    color: var(--main-color);
+.accent-logo-top {
+    color: var(--logo-second-color);
 }
 
 .site-nav,
@@ -69,6 +70,20 @@ body {
 .link-contacts {
     text-decoration: none;
     color: var(--second-font-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
         /* Studio page */
@@ -102,6 +117,10 @@ body {
     border-radius: 4px;
 
 }
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--hero-button-bg-color);
+}
 
 .preferences-title {
     font-weight: 700;
@@ -132,18 +151,12 @@ body {
 
 .our-team-professions {
     color: var(--second-font-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
         /* Portfolio page */
             /* main */
 
-.filter {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-}
 
 .case-title {
     font-weight: 700;
@@ -193,4 +206,8 @@ line-height: 1.7;
 .down:hover,
 .down:focus {
     color: var(--main-color);
+}
+
+.accent-logo-bottom {
+    color: var(--white-font-color);
 }
